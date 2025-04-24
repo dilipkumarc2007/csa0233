@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+  int a=8;//length
+  int b=4; //breadth
+  int area;
+
+  area = a*b;
+
+  printf("The area of the rectangle is: %d\n", area);
+
+  return 0;
+}
