@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int a=11;
+    if(a==10)
+    {
+        if(a%2==0)
+        {
+            printf("Even");
+        }
+        else
+        {
+            printf("Odd");
+        }
+    }
+    else
+    {
+        printf("%d is not equal to 10",a);
+    }
+    return 0;
+}
