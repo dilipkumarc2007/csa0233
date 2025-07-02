@@ -1,0 +1,25 @@
+#include <stdio.h> 
+#include<string.h>
+struct person
+{
+    char name[50];
+    int citno;
+    float salary;
+}
+p1,p2;
+int main()
+{
+    strcpy(p1.name, "Raj kumar");
+    p1.citno=1984;
+    p1.salary=25000;
+    printf("Name:%s\n",p1.name);
+    printf("citizen ship no:%d\n",p1.citno);
+    printf("salary:%. f\n",p1.salary);
+    strcpy(p2.name,"Raj kumar"); 
+    p2.citno=1984; 
+    p2. salary=25000; 
+    printf("Name:%s\n",p2.name);
+    printf("citizen ship no:%d\n",p2.citno); 
+    printf("salary:%.f\n",p2.salary);
+    return 0;
+}    
